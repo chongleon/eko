@@ -1,6 +1,6 @@
 import { BrowserTab } from '../../types/tools.types';
 import { Tool, InputSchema, ExecutionContext } from '../../types/action.types';
-import { getTabId, executeScript, injectScript, sleep } from '../utils';
+import { executeScript, injectScript, sleep } from '../utils';
 
 export class GetAllTabs implements Tool<any, BrowserTab[]> {
   name: string;
